@@ -33,7 +33,6 @@
     import SvPanel from './sv-panel';
     import HueSlider from './hue-slider';
     import AlphaSlider from './alpha-slider';
-    import Popper from 'element-ui/src/utils/vue-popper';
 
     export default {
         name: 'el-color-picker-dropdown',

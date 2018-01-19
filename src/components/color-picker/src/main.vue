@@ -33,7 +33,6 @@
     /* eslint-disable */
     import Color from './color';
     import PickerDropdown from './components/picker-dropdown.vue';
-    import Clickoutside from 'element-ui/src/utils/clickoutside';
 
     export default {
         name: 'ElColorPicker',
@@ -52,9 +51,6 @@
                 default: ''
             }
         },
-
-        directives: {Clickoutside},
-
         computed: {
             displayedColor() {
                 if (!this.value && !this.showPanelColor) {
