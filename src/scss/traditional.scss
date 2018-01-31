@@ -1,0 +1,97 @@
+.traditional .clearfix {
+    *zoom: 1;
+}
+
+.traditional .clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.traditional .clearfix:after {
+    clear: both;
+}
+.traditional a {
+    color: #333;
+}
+.traditional a img {
+    border: 0 none
+}
+
+.traditional .link:link {
+    color: #dc3a2d;
+    text-decoration: none
+}
+
+.traditional .link:visited {
+    color: #669;
+    text-decoration: none
+}
+
+.traditional .link:hover {
+    text-decoration: underline;
+    color: #dc3a2d;
+}
+
+.traditional .link:active {
+    text-decoration: underline;
+    color: #a42219;
+}
+
+.traditional ul {
+    width: 20%;
+    float: left
+}
+
+.traditional ul, li, body {
+    margin: 0;
+    padding: 0;
+}
+
+.traditional ul li {
+    display: block;
+    padding: 16px 16px;
+    margin: 0 8px 8px 0;
+    border-radius: 8px;
+    /*cursor: pointer;*/
+}
+
+.traditional #tester {
+    padding: 5px 10px;
+    margin: 18px 0 0 60px;
+    display: none;
+    position: absolute;
+    font-size: 12px;
+}
+
+.traditional ul li a span {
+    display: block;
+    font-size: 14px;
+    /*cursor: pointer;*/
+}
+
+.traditional .container {
+    max-width: 1000px;
+    _width: 1000px;
+    margin: 0 auto;
+}
+
+.traditional .white a {
+    color: #FFF !important;
+}
+
+.traditional .change {
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+.traditional .change a {
+    font-size: 14px;
+    color: #dc3a2d !important;
+}
+/**/
+.color-title {
+    margin: 16px 0;
+    text-align: center;
+}
