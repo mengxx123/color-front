@@ -2,10 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
+const PaletteHelp = resolve => require(['@/views/PaletteHelp'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
 const Gradient = resolve => require(['@/views/Gradient'], resolve)
 const ChineseColor = resolve => require(['@/views/ChineseColor'], resolve)
 const JapenColor = resolve => require(['@/views/JapenColor'], resolve)
+const ColorScheme = resolve => require(['@/views/ColorScheme'], resolve)
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -14,6 +16,10 @@ let routes = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/palette/help',
+        component: PaletteHelp
     },
     {
         path: '/about',
@@ -30,6 +36,10 @@ let routes = [
     {
         path: '/color/japen',
         component: JapenColor
+    },
+    {
+        path: '/colorScheme',
+        component: ColorScheme
     },
     {
         path: '*',

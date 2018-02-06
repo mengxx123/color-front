@@ -1,9 +1,12 @@
 <template>
-    <ui-page :title="title || page.title" ref="page">
+    <ui-page :title="title" :page="page" :backable="backable" ref="page">
         <div slot="drawer">
             <ui-appbar title=""></ui-appbar>
             <ui-list @itemClick="toggle()">
                 <ui-list-item title="调色板" to="/">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="配色" to="/colorScheme">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="渐变" to="/gradient">

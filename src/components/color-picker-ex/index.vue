@@ -33,8 +33,7 @@
                 color,
                 showPicker: false,
                 showPanelColor: false,
-                pickerVisible: false,
-                trigger: null
+                pickerVisible: false
             };
         },
         props: {
@@ -83,10 +82,6 @@
                 this.resetColor();
                 this.pickerVisible = false
             },
-            handleTrigger() {
-                if (this.disabled) return;
-                this.showPicker = !this.showPicker;
-            },
             confirmValue(value) {
                 this.$emit('input', this.color.value);
                 this.$emit('change', this.color.value);
@@ -114,7 +109,6 @@
             if (value) {
                 this.color.fromString(value);
             }
-            this.trigger = this.$refs.button.$el
         },
         components: {
             PickerDropdown
