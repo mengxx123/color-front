@@ -12,10 +12,14 @@
                 <ui-list-item title="渐变" to="/gradient">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
+                <ui-divider />
                 <ui-list-item title="中国传统色彩" to="/color/chinese">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="日本传统色彩" to="/color/japen">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="Material Design 颜色" to="/color/materialDesign">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="关于" to="/about">

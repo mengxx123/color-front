@@ -74,8 +74,8 @@
         height: 300px;
     }
     .palette-list {
+        max-width: 800px;
         @include clearfix;
-
         .item {
             float: left;
             margin-right: 16px;
