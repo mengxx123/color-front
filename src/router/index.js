@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
 const PaletteHelp = resolve => require(['@/views/PaletteHelp'], resolve)
+const PaletteSettings = resolve => require(['@/views/PaletteSettings'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
 const Gradient = resolve => require(['@/views/Gradient'], resolve)
 const ChineseColor = resolve => require(['@/views/ChineseColor'], resolve)
@@ -21,6 +22,10 @@ let routes = [
     {
         path: '/palette/help',
         component: PaletteHelp
+    },
+    {
+        path: '/palette/settings',
+        component: PaletteSettings
     },
     {
         path: '/about',

@@ -8,10 +8,9 @@
         </div>
 
         <ul class="palette-list">
-            <li class="item btn-copy" v-for="color in colors"
-                :data-clipboard-text="color">
-                <div class="palette" :style="{'background-color': color}"></div>
-                <div class="code">{{ color }}</div>
+            <li class="item" v-for="color in colors">
+                <div class="palette" :style="{'background-color': color}" @click="setColor(color)"></div>
+                <div class="code btn-copy" :data-clipboard-text="color" title="点击复制代码">{{ color }}</div>
             </li>
         </ul>
     </my-page>
@@ -23,13 +22,15 @@
     export default {
         data () {
             return {
-                color1: '#ff0000',
-//                color1: 'rgba(19, 206, 102, 0.8)'
-//                color1: null
                 color2: '#ff9c1d',
                 colors: ['#ff0000', '#0099cc', '#000000', '#ffffff'],
                 page: {
                     menu: [
+                        {
+                            type: 'icon',
+                            icon: 'settings',
+                            to: '/palette/settings'
+                        },
                         {
                             type: 'icon',
                             icon: 'help',
@@ -56,6 +57,9 @@
             this.clipboard.destroy()
         },
         methods: {
+            setColor(color) {
+//                this.color2 = color
+            },
             add() {
                 this.colors.unshift(this.color2)
                 this.$storage.set('colors', this.colors)
@@ -80,7 +84,6 @@
             float: left;
             margin-right: 16px;
             margin-bottom: 16px;
-            cursor: pointer;
         }
         .palette {
             width: 40px;
@@ -88,8 +91,10 @@
             margin: 0 auto 8px auto;
             border-radius: 50%;
             border: 1px solid #999;
+            /*cursor: pointer;*/
         }
         .code {
+            cursor: pointer;
             text-align: center;
         }
     }

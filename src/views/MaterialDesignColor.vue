@@ -1,10 +1,13 @@
 <template>
-    <my-page title="Material Design 颜色2">
+    <my-page title="Material Design 颜色">
         <ul class="color-list">
             <li class="color-item" v-for="color in colors">
                 <div class="header" :style="{'background-color': color.list[5]}">{{ color.name }}</div>
                 <ul class="sub-color-list">
-                    <li :style="{'background-color': item}" v-for="(item, index) in color.list">
+                    <li class="btn-copy"
+                        :style="{'background-color': item}"
+                        :data-clipboard-text="item"
+                        v-for="(item, index) in color.list">
                         <div class="name">{{ name(index) }}</div>
                         <div class="code">{{ item }}</div>
                     </li>
@@ -15,6 +18,8 @@
 </template>
 
 <script>
+    const Clipboard = window.Clipboard
+
     export default {
         data () {
             return {
@@ -118,6 +123,19 @@
             }
         },
         mounted() {
+            this.clipboard = new Clipboard('.btn-copy')
+            this.clipboard.on('success', function(e) {
+//                console.info('Action:', e.action);
+//                console.info('Text:', e.text);
+//                console.info('Trigger:', e.trigger);
+                e.clearSelection()
+            })
+            this.clipboard.on('error', function(e) {
+                console.log('错误')
+            })
+        },
+        destroyed() {
+            this.clipboard.destroy()
         },
         methods: {
             name(index) {

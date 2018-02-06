@@ -42,7 +42,7 @@
                                 <blockquote></blockquote>
                                 <div class="groups">
                                     <div class="group" v-for="group in asd.groups">
-                                        <span v-for="color in group" :style="{'background-color': color}">
+                                        <span class="btn-copy" v-for="color in group" :style="{'background-color': color}">
                                             <input type="text" :value="color">
                                         </span>
                                     </div>
@@ -209,16 +209,19 @@
             }
         },
         mounted() {
-            let _this = this
-            let groups = []
-            $('#character_16').find('.groups').find('.group').each(function () {
-                let group = []
-                $(this).find('input').each(function () {
-                    group.push($(this).attr('value'))
-                })
-                groups.push(group)
+            this.clipboard = new Clipboard('.btn-copy')
+            this.clipboard.on('success', function(e) {
+//                console.info('Action:', e.action);
+//                console.info('Text:', e.text);
+//                console.info('Trigger:', e.trigger);
+                e.clearSelection()
             })
-            console.log(JSON.stringify(groups))
+            this.clipboard.on('error', function(e) {
+                console.log('错误')
+            })
+        },
+        destroyed() {
+            this.clipboard.destroy()
         }
     }
 </script>

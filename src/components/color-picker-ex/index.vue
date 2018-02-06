@@ -58,6 +58,7 @@
         },
         watch: {
             value(val) {
+                this.$emit('input', this.color.value);
                 if (!val) {
                     this.showPanelColor = false;
                 } else if (val && val !== this.color.value) {
@@ -71,7 +72,16 @@
                 }
             },
             displayedColor(val) {
+                this.$emit('input', val);
                 this.$emit('active-change', val);
+            },
+            pickerVisible(val) {
+                if (val === true) {
+                    this.$nextTick(() => {
+                        console.log(this.$refs.button2)
+                        this.$refs.dropdown.update()
+                    });
+                }
             }
         },
         methods: {
@@ -112,16 +122,6 @@
         },
         components: {
             PickerDropdown
-        },
-        watch: {
-            pickerVisible(val) {
-                if (val === true) {
-                    this.$nextTick(() => {
-                        console.log(this.$refs.button2)
-                        this.$refs.dropdown.update()
-                    });
-                }
-            }
         }
     };
 </script>
