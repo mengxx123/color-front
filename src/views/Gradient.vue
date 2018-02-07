@@ -4,8 +4,11 @@
             <div class="col-lg-8 col-md-8">
                 <section class="bezier-box">
                     <ul class="gradient-list">
-                        <li class="gradient-item" v-for="item in list" @click="selectColor(item.colors)">
+                        <li class="gradient-item" v-for="item in displayList" @click="selectColor(item.colors, $event)">
                             <div class="content" :style="{background: getBg(item.colors)}"></div>
+                            <ul class="simple-color-list">
+                                <li v-for="color in item.colors" :style="{'background-color': color}"></li>
+                            </ul>
                         </li>
                     </ul>
                 </section>
@@ -13,52 +16,72 @@
             <div class="col-lg-4 col-md-4">
                 <section id="type-box" class="editor-box">
                     <ul class="type-list">
-                        <li class="type-item"></li>
+                        <li class="type-item no-filter" @click="noFilter">
+                            <ui-icon value="do_not_disturb_alt" size="36" />
+                        </li>
+                        <li class="type-item"
+                            v-for="type in types"
+                            :style="{'background-color': type}"
+                            @click="filter(type)"></li>
+                        <!--<li class="type-item" style="background-color: #fff" @click="filterWhite"></li>-->
+                        <!--<li class="type-item" style="background-color: #000" @click="filterBlack"></li>-->
                     </ul>
                 </section>
             </div>
         </div>
         <preview ref="preview"/>
+        <!--<div :class="previewClass" v-if="previewVisible"-->
+             <!--@click="previewVisible = false"-->
+             <!--:style="previewStyle">-->
+        <!--</div>-->
+        <div class="all" :style="allStyle"
+             :class="allClass"
+             @click="close">
+            <div class="all-content" :style="contentStyle"></div>
+        </div>
     </my-page>
 </template>
 
 <script>
+    /* eslint-disable */
+
 //    import Vue from 'vue'
     import datas from './gradients.json'
+    import HueSlider from '../components/color-picker/src/components/hue-slider.vue';
     console.log(datas)
 
-    // eslint-disable-next-line
-//    new Vue({
-//        el: '#type-box',
-//        data: {
-//            visiable: false,
-//            code: '',
-//            colors: ['rgb(203, 45, 62)', 'rgb(255, 210, 0)', 'rgb(21, 153, 87)', 'rgb(28, 181, 224)',
-//                'rgb(21, 87, 153)', 'rgb(239, 50, 217)', 'rgb(234, 234, 234)', '']
-//        },
-//        methods: {
-//            getBg: function () {
-//                return 'linear-gradient(to right, ' + this.colors.join(', ') + ')'
-//            },
-//            created: function () {
-//                this.visiable = false
-//            },
-//            show: function (colors) {
-//                this.colors = colors
-//                this.visiable = true
-//                this.code = 'background: ' + this.colors[0] + ';  /* fallback for old browsers */\n' +
-//                    'background: -webkit-linear-gradient(to right, ' + this.colors.join(', ') + ');  /* Chrome 10-25, Safari 5.1-6 */\n' +
-//                    'background: linear-gradient(to right, ' + this.colors.join(', ') + '); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */'
-//            },
-//            close: function () {
-//                this.visiable = false
-//            }
-//        }
-//    })
+    String.prototype.colorRgb = function(){
+        var sColor = this.toLowerCase();
+        //十六进制颜色值的正则表达式
+        var reg = /^#([0-9a-fA-f]{3}|[0-9a-fA-f]{6})$/;
+        // 如果是16进制颜色
+        if (sColor && reg.test(sColor)) {
+            if (sColor.length === 4) {
+                var sColorNew = "#";
+                for (var i=1; i<4; i+=1) {
+                    sColorNew += sColor.slice(i, i+1).concat(sColor.slice(i, i+1));
+                }
+                sColor = sColorNew;
+            }
+            //处理六位的颜色值
+            var sColorChange = [];
+            for (var i=1; i<7; i+=2) {
+                sColorChange.push(parseInt("0x"+sColor.slice(i, i+2)));
+            }
+            return sColorChange
+        }
+        return sColor;
+    };
 
     export default {
+        components: {
+            HueSlider
+        },
         data () {
             return {
+                displayList: datas,
+                previewVisible: false,
+                isAnim: false,
                 text: '',
                 count: {
                     total: 0,
@@ -230,55 +253,115 @@
                      ['rgb(253, 252, 71)', 'rgb(36, 254, 65)'],
                      ['rgb(131, 164, 212)', 'rgb(182, 251, 255)'],
                      ['rgb(72, 85, 99)', 'rgb(41, 50, 60)'],
-                     ['rgb(82, 194, 52)', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
-                     ['rgb()', 'rgb()'],
                      */
-                ]
+                ],
+                preview: {
+                    x: 0,
+                    y: 0
+                },
+                colors: [], // 当前颜色
+                types: ['#f36067', '#cf60f3', '#ffd200', '#159957', '#1cb5e0', '#155799', '#ef32d9', '#eaeaea']
+            }
+        },
+        computed: {
+            // x left
+            allStyle() {
+                let size = 3000
+                return {
+                    left: (this.preview.x - size / 2) + 'px',
+                    top: (this.preview.y - size / 2) + 'px',
+                    width: size + 'px',
+                    height: size + 'px'
+                }
+            },
+            contentStyle() {
+                return {
+                    'background-image': 'linear-gradient(to right, ' + this.colors.join(', ') + ')'
+                }
+            },
+            allClass() {
+//                'state-complete'
+                let arr = []
+                if (this.isAnim) {
+                    arr.push('state-full')
+                }
+                return arr
+            },
+            previewStyle() {
+                let size = 3000
+                return {
+                    'background-image': 'linear-gradient(135deg, rgb(245, 247, 250) 0%, rgb(195, 207, 226) 100%)',
+                    left: (this.preview.x - size / 2) + 'px',
+                    top: (this.preview.y - size / 2) + 'px',
+                    width: size + 'px',
+                    height: size + 'px'
+                }
+            },
+            previewClass() {
+                'state-complete'
+                let arr = ['full_gradient', 'js-full-gradient']
+                if (this.isAnim) {
+                    arr.push('state-full')
+                }
+                return arr
             }
         },
         mounted() {
 //            this.compute()
         },
         methods: {
-            getBg: function (item) {
+            noFilter() {
+                this.displayList = this.list
+            },
+            filter(filterColor) {
+                let hue = filterColor.colorRgb()[0]
+                let offset = 20
+                this.displayList = []
+                for (let item of this.list) {
+                    for (let color of item.colors) {
+                        let h = color.colorRgb()[0]
+                        let s = color.colorRgb()[1]
+                        let l = color.colorRgb()[2]
+                        if ((Math.abs(h - hue) < offset || Math.abs(h - hue) > 256 - offset) && (s > 255 / 2) && l < 255 / 2) {
+                            console.log(h, hue)
+                            this.displayList.push(item)
+                            break
+                        }
+                    }
+                }
+            },
+            filterWhite() {},
+            filterBlack() {},
+            getBg(item) {
                 return 'linear-gradient(to right, ' + item[0] + ', ' + item[1] + ')'
             },
-            selectColor: function (colors) {
-                this.$refs.preview.show(colors)
+            selectColor(colors, e) {
+                this.colors = colors
+                this.previewVisible = true
+
+                console.log(colors)
+                console.log(e.clientX)
+                console.log(e.clientY)
+                this.preview = {
+                    x: e.clientX,
+                    y: e.clientY
+                }
+                let elem = event.currentTarget.childNodes[0]
+                let rect = elem.getBoundingClientRect()
+                this.preview = {
+                    x: rect.x + (rect.width / 2),
+                    y: rect.y + (rect.height / 2)
+                }
+                setTimeout(()=> {
+                    this.isAnim = true
+                }, 300)
+//                this.$refs.preview.show(colors)
             },
-            compute: function () {
+            close() {
+                this.previewVisible = false
+                this.isAnim = false
+            },
+            compute() {
                 this.$http.get('/data/gradients.json').then(function (response) {
                     this.list = response.body
                     this.list = this.list.reverse()
@@ -290,13 +373,13 @@
                      */
                 })
             },
-            sort: function () {
+            sort() {
                 var newArr = []
                 var arr = this.text.split('\n')
                 newArr = arr.sort()
                 this.text = newArr.join('\n')
             },
-            clear: function () {
+            clear() {
                 this.text = ''
                 this.compute()
             }
@@ -305,39 +388,69 @@
 </script>
 
 <style lang="scss">
-    /**/
-    .input-box {
+    @import "../scss/var";
 
+    .all {
+        position: fixed;
+        z-index: 100000;
+        border-radius: 50%;
+        overflow: hidden;
+        transform: scale(0);
+        transition: transform 0.7s cubic-bezier(0.47, 0.04, 0.22, 0.92),height 0.2s ease,width 0.2s ease;
     }
-    .input-box .tip {
-        margin-bottom: 16px;
-        color: #999;
+    .all.state-full {
+        transform: scale(2);
     }
-    .input-box textarea {
-        margin-bottom: 16px;
-    }
-    /**/
-    .result-box .info {
-        margin-bottom: 16px;
-    }
-    /**/
-    .gradient-list {
-        width: 750px;
-    }
-    .gradient-list .gradient-item {
-        float: left;
-        width: 33.33%;
-        height: 160px;
-        padding: 8px;
-        cursor: pointer;
-    }
-    .gradient-list .gradient-item .content {
+    .all-content {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 10000;
         width: 100%;
         height: 100%;
-        background-color: #f90;
-        border-radius: 8px;
+        background-color: #999;
     }
+
     /**/
+    .gradient-list {
+        max-width: 750px;
+        .gradient-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            float: left;
+            width: 33.33%;
+            height: 200px;
+            padding: 8px;
+            cursor: pointer;
+            text-align: center;
+            &:hover {
+                .simple-color-list {
+                    display: block;
+                }
+            }
+            .content {
+                flex-shrink: 0;
+                width: 144px;
+                height: 144px;
+                /*margin-bottom: 16px;*/
+                background-color: #f90;
+                border-radius: 50%;
+            }
+            .simple-color-list {
+                display: none;
+                @include clearfix;
+                li {
+                    float: left;
+                    width: 16px;
+                    height: 16px;
+                    margin-top: 16px;
+                    margin-right: 8px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
 
     /**/
     .editor-box {}
@@ -350,12 +463,42 @@
     /**/
     .type-list {
         margin-top: 16px;
+        .type-item {
+            width: 32px;
+            height: 32px;
+            margin: 0 16px 16px 0;
+            border-radius: 16px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .no-filter .mu-icon {
+            // 修正像素差
+            position: relative;
+            top: -3px;
+            left: -3px;
+        }
     }
-    .type-list .type-item {
-        width: 32px;
-        height: 32px;
-        margin: 0 16px 16px 0;
-        border-radius: 16px;
-        background-color: #f00;
+    /* preview */
+    .full_gradient.state-complete {
+        transition: transform 0.7s cubic-bezier(0.47, 0.04, 0.22, 0.92),height 0.2s ease,width 0.2s ease;
+        transform: none;
+        border-radius: 0;
+        height: 100vh !important;
+        width: 100vw !important;
+        left: 0 !important;
+        top: 0 !important;
+    }
+    .full_gradient.state-full {
+        transform: scale(2);
+    }
+    .full_gradient {
+        z-index: 5000;
+        position: fixed;
+        border-radius: 50%;
+        transform: scale(0);
+        transform-origin: center;
+        transition: transform 0.7s cubic-bezier(0.47, 0.04, 0.22, 0.92);
+        background-color: #86939e;
     }
 </style>
