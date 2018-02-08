@@ -4,6 +4,9 @@
             <div class="col-lg-8 col-md-8">
                 <section class="bezier-box">
                     <ul class="gradient-list">
+                        <li class="gradient-item item-add" @click="selectColor('', $event)">
+                            <div class="content"></div>
+                        </li>
                         <li class="gradient-item" v-for="item in displayList" @click="selectColor(item.colors, $event)">
                             <div class="content" :style="{background: getBg(item.colors)}"></div>
                             <ul class="simple-color-list">
@@ -448,6 +451,15 @@
                     margin-right: 8px;
                     border-radius: 50%;
                 }
+            }
+        }
+        .item-add {
+            .content {
+                width: 144px;
+                height: 144px;
+                border: 1px dashed #ccc;
+                border-radius: 50%;
+                background-color: transparent;
             }
         }
     }
