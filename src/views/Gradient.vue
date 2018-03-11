@@ -4,7 +4,7 @@
             <div class="col-lg-8 col-md-8">
                 <section class="bezier-box">
                     <ul class="gradient-list">
-                        <li class="gradient-item item-add" @click="selectColor('', $event)">
+                        <li class="gradient-item item-add" @click="viewEditor">
                             <div class="content"></div>
                         </li>
                         <li class="gradient-item" v-for="item in displayList" @click="selectColor(item.colors, $event)">
@@ -313,6 +313,10 @@
 //            this.compute()
         },
         methods: {
+            viewEditor() {
+                window.open('http://gradient.yunser.com/')
+                // this.$router.push('')
+            },
             noFilter() {
                 this.displayList = this.list
             },

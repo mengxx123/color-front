@@ -10,6 +10,8 @@ const ChineseColor = resolve => require(['@/views/ChineseColor'], resolve)
 const JapenColor = resolve => require(['@/views/JapenColor'], resolve)
 const MaterialDesignColor = resolve => require(['@/views/MaterialDesignColor'], resolve)
 const ColorScheme = resolve => require(['@/views/ColorScheme'], resolve)
+const Hue = resolve => require(['@/views/Hue'], resolve)
+const Search = resolve => require(['@/views/Search'], resolve)
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -32,6 +34,10 @@ let routes = [
         component: About
     },
     {
+        path: '/hue',
+        component: Hue
+    },
+    {
         path: '/gradient',
         component: Gradient
     },
@@ -50,6 +56,10 @@ let routes = [
     {
         path: '/colorScheme',
         component: ColorScheme
+    },
+    {
+        path: '/search',
+        component: Search
     },
     {
         path: '*',

@@ -6,6 +6,15 @@
                 <ui-list-item title="调色板" to="/">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
+                <ui-list-item title="搜索" to="/search">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="色相" href="http://hue.yunser.com/" target="_blank">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
+                <ui-list-item title="图片取色" href="http://img.tool.yunser.com/color" target="_blank">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
                 <ui-list-item title="配色" to="/colorScheme">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
