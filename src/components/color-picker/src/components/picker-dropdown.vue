@@ -2,7 +2,7 @@
     <transition name="el-zoom-in-top">
         <div class="el-color-dropdown">
             <div class="el-color-dropdown__main-wrapper">
-                <hue-slider ref="hue" :color="null" vertical></hue-slider>
+                <hue-slider ref="hue" :color="color" vertical></hue-slider>
                 <sv-panel ref="sl" :color="color"></sv-panel>
             </div>
             <alpha-slider v-if="showAlpha" ref="alpha" :color="color"></alpha-slider>

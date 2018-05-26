@@ -1,6 +1,6 @@
 <template>
     <my-page title="调色板" :page="page">
-        <!--<ui-color-picker v-model="color1" ></ui-color-picker>-->
+        <!-- <ui-color-picker v-model="color1" ></ui-color-picker> -->
         <ui-color-picker-ex class="color-picker" v-model="color2"></ui-color-picker-ex>
         <div class="btns">
             <ui-icon-button class="color-copy btn-copy" icon="content_copy" title="复制" :data-clipboard-text="color2" />
@@ -22,6 +22,7 @@
     export default {
         data () {
             return {
+                color1: '#ff9c1d',
                 color2: '#ff9c1d',
                 colors: ['#ff0000', '#0099cc', '#000000', '#ffffff'],
                 page: {
