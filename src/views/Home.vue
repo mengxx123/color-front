@@ -42,10 +42,20 @@
             }
         },
         mounted () {
-            this.colors = this.$storage.get('colors', this.colors)
+            let data = this.$route.query.data
+            if (data) {
+                console.log('哈哈', data)
+                this.color2 = data
+            } else {
+                this.colors = this.$storage.get('colors', this.colors)
+            }
 
             this.clipboard = new Clipboard('.btn-copy')
-            this.clipboard.on('success', function(e) {
+            this.clipboard.on('success', e => {
+                this.$message({
+                    type: 'success',
+                    text: '复制成功'
+                })
 //                console.info('Action:', e.action);
 //                console.info('Text:', e.text);
 //                console.info('Trigger:', e.trigger);
