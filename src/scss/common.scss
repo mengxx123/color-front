@@ -13,3 +13,10 @@
     overflow: auto;
     font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
+.ui-page-body {
+    -webkit-overflow-scrolling : touch;
+}
+input,
+textarea {
+  -webkit-appearance: none;
+}

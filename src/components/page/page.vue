@@ -1,37 +1,14 @@
 <template>
     <ui-page :title="title" :page="page" :backable="backable" ref="page">
         <div slot="drawer">
-            <ui-appbar title=""></ui-appbar>
+            <div class="header">
+                <img class="logo" src="/static/img/color.svg">
+            </div>
             <ui-list @itemClick="toggle()">
-                <ui-list-item title="调色板" to="/">
+                <ui-list-item title="首页" to="/">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
-                <ui-list-item title="搜索" to="/search">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="色相" href="http://hue.yunser.com/" target="_blank">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="图片取色" href="http://img.tool.yunser.com/color" target="_blank">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="配色" to="/colorScheme">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="渐变" to="/gradient">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-divider />
-                <ui-list-item title="中国传统色彩" to="/color/chinese">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="日本传统色彩" to="/color/japen">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="Material Design 颜色" to="/color/materialDesign">
-                    <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
-                <ui-list-item title="关于" to="/about">
+                <ui-list-item title="关于" href="https://project.yunser.com/products/5db4f7c0fb9511e89245f7d1b23c85d4" target="_blank">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
             </ui-list>
@@ -79,30 +56,19 @@
 </script>
 
 <style lang="scss" scoped>
-    .ui-page {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-    }
-    .page-body {
-        min-height: 500px;
-    }
-    .container-main {
-        padding-top: 16px;
-    }
-    .page-content {
-        position: absolute;
-        top: 0;
-        left: 256px;
-        right: 0;
-        bottom: 0;
-    }
-    .page-container {
-        padding: 16px;
-    }
-    .admin-container {
-        padding: 16px;
-    }
+.header {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.logo {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+}
+.ui-position-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 </style>

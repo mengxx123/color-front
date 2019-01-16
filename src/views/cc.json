@@ -1,0 +1,2514 @@
+[
+    {
+        "name": "蔚蓝",
+        "color": "#70f3ff"
+    },
+    {
+        "name": "蓝",
+        "color": "#44cef6"
+    },
+    {
+        "name": "碧蓝",
+        "color": "#3eede7"
+    },
+    {
+        "name": "石青",
+        "color": "#1685a9"
+    },
+    {
+        "name": "靛青",
+        "color": "#177cb0"
+    },
+    {
+        "name": "靛蓝",
+        "color": "#065279"
+    },
+    {
+        "name": "花青",
+        "color": "#003472"
+    },
+    {
+        "name": "宝蓝",
+        "color": "#4b5cc4"
+    },
+    {
+        "name": "蓝灰色",
+        "color": "#a1afc9"
+    },
+    {
+        "name": "藏青",
+        "color": "#2e4e7e"
+    },
+    {
+        "name": "藏蓝",
+        "color": "#3b2e7e"
+    },
+    {
+        "name": "黛",
+        "color": "#4a4266"
+    },
+    {
+        "name": "黛绿",
+        "color": "#426666"
+    },
+    {
+        "name": "黛蓝",
+        "color": "#425066"
+    },
+    {
+        "name": "黛紫",
+        "color": "#574266"
+    },
+    {
+        "name": "紫色",
+        "color": "#8d4bbb"
+    },
+    {
+        "name": "紫酱",
+        "color": "#815463"
+    },
+    {
+        "name": "酱紫",
+        "color": "#815476"
+    },
+    {
+        "name": "紫檀",
+        "color": "#4c221b"
+    },
+    {
+        "name": "绀青",
+        "color": "#003371"
+    },
+    {
+        "name": "紫棠",
+        "color": "#56004f"
+    },
+    {
+        "name": "青莲",
+        "color": "#801dae"
+    },
+    {
+        "name": "群青",
+        "color": "#4c8dae"
+    },
+    {
+        "name": "雪青",
+        "color": "#b0a4e3"
+    },
+    {
+        "name": "丁香色",
+        "color": "#cca4e3"
+    },
+    {
+        "name": "藕色",
+        "color": "#edd1d8"
+    },
+    {
+        "name": "藕荷色",
+        "color": "#e4c6d0"
+    },
+    {
+        "name": "朱砂",
+        "color": "#ff461f"
+    },
+    {
+        "name": "火红",
+        "color": "#ff2d51"
+    },
+    {
+        "name": "朱膘",
+        "color": "#f36838"
+    },
+    {
+        "name": "妃色",
+        "color": "#ed5736"
+    },
+    {
+        "name": "洋红",
+        "color": "#ff4777"
+    },
+    {
+        "name": "品红",
+        "color": "#f00056"
+    },
+    {
+        "name": "粉红",
+        "color": "#ffb3a7"
+    },
+    {
+        "name": "桃红",
+        "color": "#f47983"
+    },
+    {
+        "name": "海棠红",
+        "color": "#db5a6b"
+    },
+    {
+        "name": "樱桃色",
+        "color": "#c93756"
+    },
+    {
+        "name": "酡颜",
+        "color": "#f9906f"
+    },
+    {
+        "name": "银红",
+        "color": "#f05654"
+    },
+    {
+        "name": "大红",
+        "color": "#ff2121"
+    },
+    {
+        "name": "石榴红",
+        "color": "#f20c00"
+    },
+    {
+        "name": "绛紫",
+        "color": "#8c4356"
+    },
+    {
+        "name": "绯红",
+        "color": "#c83c23"
+    },
+    {
+        "name": "胭脂",
+        "color": "#9d2933"
+    },
+    {
+        "name": "朱红",
+        "color": "#ff4c00"
+    },
+    {
+        "name": "丹",
+        "color": "#ff4e20"
+    },
+    {
+        "name": "彤",
+        "color": "#f35336"
+    },
+    {
+        "name": "酡红",
+        "color": "#dc3023"
+    },
+    {
+        "name": "炎",
+        "color": "#ff3300"
+    },
+    {
+        "name": "茜色",
+        "color": "#cb3a56"
+    },
+    {
+        "name": "绾",
+        "color": "#a98175"
+    },
+    {
+        "name": "檀",
+        "color": "#b36d61"
+    },
+    {
+        "name": "嫣红",
+        "color": "#ef7a82"
+    },
+    {
+        "name": "洋红",
+        "color": "#ff0097"
+    },
+    {
+        "name": "枣红",
+        "color": "#c32136"
+    },
+    {
+        "name": "殷红",
+        "color": "#be002f"
+    },
+    {
+        "name": "赫赤",
+        "color": "#c91f37"
+    },
+    {
+        "name": "银朱",
+        "color": "#bf242a"
+    },
+    {
+        "name": "赤",
+        "color": "#c3272b"
+    },
+    {
+        "name": "胭脂",
+        "color": "#9d2933"
+    },
+    {
+        "name": "栗色",
+        "color": "#60281e"
+    },
+    {
+        "name": "玄色",
+        "color": "#622a1d"
+    },
+    {
+        "name": "松花色",
+        "color": "#bce672"
+    },
+    {
+        "name": "柳黄",
+        "color": "#c9dd22"
+    },
+    {
+        "name": "嫩绿",
+        "color": "#bddd22"
+    },
+    {
+        "name": "柳绿",
+        "color": "#afdd22"
+    },
+    {
+        "name": "葱黄",
+        "color": "#a3d900"
+    },
+    {
+        "name": "葱绿",
+        "color": "#9ed900"
+    },
+    {
+        "name": "豆绿",
+        "color": "#9ed048"
+    },
+    {
+        "name": "豆青",
+        "color": "#96ce54"
+    },
+    {
+        "name": "油绿",
+        "color": "#00bc12"
+    },
+    {
+        "name": "葱倩",
+        "color": "#0eb83a"
+    },
+    {
+        "name": "葱青",
+        "color": "#0eb83a"
+    },
+    {
+        "name": "青葱",
+        "color": "#0aa344"
+    },
+    {
+        "name": "石绿",
+        "color": "#16a951"
+    },
+    {
+        "name": "松柏绿",
+        "color": "#21a675"
+    },
+    {
+        "name": "松花绿",
+        "color": "#057748"
+    },
+    {
+        "name": "绿沈",
+        "color": "#0c8918"
+    },
+    {
+        "name": "绿色",
+        "color": "#00e500"
+    },
+    {
+        "name": "草绿",
+        "color": "#40de5a"
+    },
+    {
+        "name": "青翠",
+        "color": "#00e079"
+    },
+    {
+        "name": "青色",
+        "color": "#00e09e"
+    },
+    {
+        "name": "翡翠色",
+        "color": "#3de1ad"
+    },
+    {
+        "name": "碧绿",
+        "color": "#2add9c"
+    },
+    {
+        "name": "玉色",
+        "color": "#2edfa3"
+    },
+    {
+        "name": "缥",
+        "color": "#7fecad"
+    },
+    {
+        "name": "艾绿",
+        "color": "#a4e2c6"
+    },
+    {
+        "name": "石青",
+        "color": "#7bcfa6"
+    },
+    {
+        "name": "碧色",
+        "color": "#1bd1a5"
+    },
+    {
+        "name": "青碧",
+        "color": "#48c0a3"
+    },
+    {
+        "name": "铜绿",
+        "color": "#549688"
+    },
+    {
+        "name": "竹青",
+        "color": "#789262"
+    },
+    {
+        "name": "墨灰",
+        "color": "#758a99"
+    },
+    {
+        "name": "墨色",
+        "color": "#50616d"
+    },
+    {
+        "name": "鸦青",
+        "color": "#424c50"
+    },
+    {
+        "name": "黯",
+        "color": "#41555d"
+    },
+    {
+        "name": "樱草色",
+        "color": "#eaff56"
+    },
+    {
+        "name": "鹅黄",
+        "color": "#fff143"
+    },
+    {
+        "name": "鸭黄",
+        "color": "#faff72"
+    },
+    {
+        "name": "杏黄",
+        "color": "#ffa631"
+    },
+    {
+        "name": "橙黄",
+        "color": "#ffa400"
+    },
+    {
+        "name": "橙色",
+        "color": "#fa8c35"
+    },
+    {
+        "name": "杏红",
+        "color": "#ff8c31"
+    },
+    {
+        "name": "橘黄",
+        "color": "#ff8936"
+    },
+    {
+        "name": "橘红",
+        "color": "#ff7500"
+    },
+    {
+        "name": "藤黄",
+        "color": "#ffb61e"
+    },
+    {
+        "name": "姜黄",
+        "color": "#ffc773"
+    },
+    {
+        "name": "雌黄",
+        "color": "#ffc64b"
+    },
+    {
+        "name": "赤金",
+        "color": "#f2be45"
+    },
+    {
+        "name": "缃色",
+        "color": "#f0c239"
+    },
+    {
+        "name": "雄黄",
+        "color": "#e9bb1d"
+    },
+    {
+        "name": "秋香色",
+        "color": "#d9b611"
+    },
+    {
+        "name": "金色",
+        "color": "#eacd76"
+    },
+    {
+        "name": "牙色",
+        "color": "#eedeb0"
+    },
+    {
+        "name": "枯黄",
+        "color": "#d3b17d"
+    },
+    {
+        "name": "黄栌",
+        "color": "#e29c45"
+    },
+    {
+        "name": "乌金",
+        "color": "#a78e44"
+    },
+    {
+        "name": "昏黄",
+        "color": "#c89b40"
+    },
+    {
+        "name": "棕黄",
+        "color": "#ae7000"
+    },
+    {
+        "name": "琥珀",
+        "color": "#ca6924"
+    },
+    {
+        "name": "棕色",
+        "color": "#b25d25"
+    },
+    {
+        "name": "茶色",
+        "color": "#b35c44"
+    },
+    {
+        "name": "棕红",
+        "color": "#9b4400"
+    },
+    {
+        "name": "赭",
+        "color": "#9c5333"
+    },
+    {
+        "name": "驼色",
+        "color": "#a88462"
+    },
+    {
+        "name": "秋色",
+        "color": "#896c39"
+    },
+    {
+        "name": "棕绿",
+        "color": "#827100"
+    },
+    {
+        "name": "褐色",
+        "color": "#6e511e"
+    },
+    {
+        "name": "棕黑",
+        "color": "#7c4b00"
+    },
+    {
+        "name": "赭色",
+        "color": "#955539"
+    },
+    {
+        "name": "赭石",
+        "color": "#845a33"
+    },
+    {
+        "name": "精白",
+        "color": "#ffffff"
+    },
+    {
+        "name": "银白",
+        "color": "#e9e7ef"
+    },
+    {
+        "name": "铅白",
+        "color": "#f0f0f4"
+    },
+    {
+        "name": "霜色",
+        "color": "#e9f1f6"
+    },
+    {
+        "name": "雪白",
+        "color": "#f0fcff"
+    },
+    {
+        "name": "莹白",
+        "color": "#e3f9fd"
+    },
+    {
+        "name": "月白",
+        "color": "#d6ecf0"
+    },
+    {
+        "name": "象牙白",
+        "color": "#fffbf0"
+    },
+    {
+        "name": "缟",
+        "color": "#f2ecde"
+    },
+    {
+        "name": "鱼肚白",
+        "color": "#fcefe8"
+    },
+    {
+        "name": "白粉",
+        "color": "#fff2df"
+    },
+    {
+        "name": "荼白",
+        "color": "#f3f9f1"
+    },
+    {
+        "name": "鸭卵青",
+        "color": "#e0eee8"
+    },
+    {
+        "name": "素",
+        "color": "#e0f0e9"
+    },
+    {
+        "name": "青白",
+        "color": "#c0ebd7"
+    },
+    {
+        "name": "蟹壳青",
+        "color": "#bbcdc5"
+    },
+    {
+        "name": "花白",
+        "color": "#c2ccd0"
+    },
+    {
+        "name": "老银",
+        "color": "#bacac6"
+    },
+    {
+        "name": "灰色",
+        "color": "#808080"
+    },
+    {
+        "name": "苍色",
+        "color": "#75878a"
+    },
+    {
+        "name": "水色",
+        "color": "#88ada6"
+    },
+    {
+        "name": "黝",
+        "color": "#6b6882"
+    },
+    {
+        "name": "乌色",
+        "color": "#725e82"
+    },
+    {
+        "name": "玄青",
+        "color": "#3d3b4f"
+    },
+    {
+        "name": "乌黑",
+        "color": "#392f41"
+    },
+    {
+        "name": "黎",
+        "color": "#75664d"
+    },
+    {
+        "name": "黧",
+        "color": "#5d513c"
+    },
+    {
+        "name": "黝黑",
+        "color": "#665757"
+    },
+    {
+        "name": "缁色",
+        "color": "#493131"
+    },
+    {
+        "name": "煤黑",
+        "color": "#312520"
+    },
+    {
+        "name": "漆黑",
+        "color": "#161823"
+    },
+    {
+        "name": "黑色",
+        "color": "#000000"
+    },
+    {
+        "name": "古代紫  ",
+        "color": "#895b8a  "
+    },
+    {
+        "name": "茄子紺 ",
+        "color": "#824880   "
+    },
+    {
+        "name": "二藍 ",
+        "color": "#915c8b    "
+    },
+    {
+        "name": "京紫 ",
+        "color": "#9d5b8b     "
+    },
+    {
+        "name": "蒲葡",
+        "color": "#7a4171   "
+    },
+    {
+        "name": "若紫",
+        "color": "#bc64a4    "
+    },
+    {
+        "name": "紅紫",
+        "color": "#b44c97     "
+    },
+    {
+        "name": "梅紫",
+        "color": "#aa4c8f      "
+    },
+    {
+        "name": "菖蒲色",
+        "color": "#cc7eb1  "
+    },
+    {
+        "name": "紅藤色 ",
+        "color": "#cca6bf   "
+    },
+    {
+        "name": "浅紫 ",
+        "color": "#c4a3bf  "
+    },
+    {
+        "name": "紫水晶 ",
+        "color": "#e7e7eb  "
+    },
+    {
+        "name": "薄梅鼠",
+        "color": "#dcd6d9"
+    },
+    {
+        "name": "暁鼠",
+        "color": "#d3cfd9"
+    },
+    {
+        "name": "牡丹鼠",
+        "color": "#d3ccd6"
+    },
+    {
+        "name": "霞色",
+        "color": "#c8c2c6"
+    },
+    {
+        "name": "藤鼠",
+        "color": "#a6a5c4 "
+    },
+    {
+        "name": "半色",
+        "color": "#a69abd  "
+    },
+    {
+        "name": "薄色",
+        "color": "#a89dac   "
+    },
+    {
+        "name": "薄鼠",
+        "color": "#9790a4    "
+    },
+    {
+        "name": "鳩羽鼠",
+        "color": "#9e8b8e"
+    },
+    {
+        "name": "鳩羽色",
+        "color": "#95859c "
+    },
+    {
+        "name": "桔梗鼠",
+        "color": "#95949a  "
+    },
+    {
+        "name": "紫鼠",
+        "color": "#71686c "
+    },
+    {
+        "name": "葡萄鼠",
+        "color": "#705b67 "
+    },
+    {
+        "name": "濃色",
+        "color": "#634950 "
+    },
+    {
+        "name": "紫鳶",
+        "color": "#5f414b "
+    },
+    {
+        "name": "濃鼠 ",
+        "color": "#4f455c "
+    },
+    {
+        "name": "藤煤竹 ",
+        "color": "#5a5359 "
+    },
+    {
+        "name": "滅紫",
+        "color": "#594255  "
+    },
+    {
+        "name": "紅消鼠",
+        "color": "#524748   "
+    },
+    {
+        "name": "似せ紫",
+        "color": "#513743 "
+    },
+    {
+        "name": "灰黄緑 ",
+        "color": "#e6eae3"
+    },
+    {
+        "name": "蕎麦切色 ",
+        "color": "#d4dcd6"
+    },
+    {
+        "name": "薄雲鼠",
+        "color": "#d4dcda"
+    },
+    {
+        "name": "枯野色",
+        "color": "#d3cbc6"
+    },
+    {
+        "name": "潤色",
+        "color": "#c8c2be "
+    },
+    {
+        "name": "利休白茶",
+        "color": "#b3ada0  "
+    },
+    {
+        "name": "茶鼠 ",
+        "color": "#a99e93 "
+    },
+    {
+        "name": "胡桃染",
+        "color": "#a58f86 "
+    },
+    {
+        "name": "江戸鼠",
+        "color": "#928178 "
+    },
+    {
+        "name": "煤色",
+        "color": "#887f7a "
+    },
+    {
+        "name": "丁子茶",
+        "color": "#b4866b  "
+    },
+    {
+        "name": "柴染 ",
+        "color": "#b28c6e   "
+    },
+    {
+        "name": "宗伝唐茶",
+        "color": "#a16d5d "
+    },
+    {
+        "name": "砺茶",
+        "color": "#9f6f55  "
+    },
+    {
+        "name": "煎茶色",
+        "color": "#8c6450   "
+    },
+    {
+        "name": "銀煤竹 ",
+        "color": "#856859  "
+    },
+    {
+        "name": "黄枯茶",
+        "color": "#765c47 "
+    },
+    {
+        "name": "煤竹色 ",
+        "color": "#6f514c  "
+    },
+    {
+        "name": "焦茶",
+        "color": "#6f4b3e "
+    },
+    {
+        "name": "黒橡",
+        "color": "#544a47  "
+    },
+    {
+        "name": "憲法色",
+        "color": "#543f32   "
+    },
+    {
+        "name": "涅色",
+        "color": "#554738  "
+    },
+    {
+        "name": "檳榔子染",
+        "color": "#433d3c   "
+    },
+    {
+        "name": "黒鳶",
+        "color": "#432f2f    "
+    },
+    {
+        "name": "赤墨",
+        "color": "#3f312b  "
+    },
+    {
+        "name": "黒紅",
+        "color": "#302833   "
+    },
+    {
+        "name": "白",
+        "color": "#ffffff   "
+    },
+    {
+        "name": "胡粉色",
+        "color": "#fffffc   "
+    },
+    {
+        "name": "卯の花色",
+        "color": "#f7fcfe   "
+    },
+    {
+        "name": "白磁",
+        "color": "#f8fbf8   "
+    },
+    {
+        "name": "生成り色",
+        "color": "#fbfaf5   "
+    },
+    {
+        "name": "乳白色",
+        "color": "#f3f3f3   "
+    },
+    {
+        "name": "白練",
+        "color": "#f3f3f2   "
+    },
+    {
+        "name": "素色",
+        "color": "#eae5e3   "
+    },
+    {
+        "name": "白梅鼠",
+        "color": "#e5e4e6   "
+    },
+    {
+        "name": "白鼠",
+        "color": "#dcdddd   "
+    },
+    {
+        "name": "絹鼠",
+        "color": "#dddcd6   "
+    },
+    {
+        "name": "灰青",
+        "color": "#c0c6c9  "
+    },
+    {
+        "name": "銀鼠",
+        "color": "#afafb0 "
+    },
+    {
+        "name": "薄鈍",
+        "color": "#adadad  "
+    },
+    {
+        "name": "薄墨色",
+        "color": "#a3a3a2 "
+    },
+    {
+        "name": "錫色",
+        "color": "#9ea1a3  "
+    },
+    {
+        "name": "素鼠",
+        "color": "#9fa0a0  "
+    },
+    {
+        "name": "鼠色",
+        "color": "#949495  "
+    },
+    {
+        "name": "源氏鼠",
+        "color": "#888084 "
+    },
+    {
+        "name": "灰色",
+        "color": "#7d7d7d  "
+    },
+    {
+        "name": "鉛色",
+        "color": "#7b7c7d   "
+    },
+    {
+        "name": "鈍色",
+        "color": "#727171    "
+    },
+    {
+        "name": "墨",
+        "color": "#595857     "
+    },
+    {
+        "name": "丼鼠",
+        "color": "#595455      "
+    },
+    {
+        "name": "消炭色",
+        "color": "#524e4d    "
+    },
+    {
+        "name": "藍墨茶 ",
+        "color": "#474a4d     "
+    },
+    {
+        "name": "羊羹色",
+        "color": "#383c3c      "
+    },
+    {
+        "name": "蝋色",
+        "color": "#2b2b2b "
+    },
+    {
+        "name": "黒",
+        "color": "#2b2b2b  "
+    },
+    {
+        "name": "烏羽色",
+        "color": "#180614   "
+    },
+    {
+        "name": "鉄黒",
+        "color": "#281a14  "
+    },
+    {
+        "name": "濡羽色",
+        "color": "#000b00 "
+    },
+    {
+        "name": "黒壇",
+        "color": "#250d00  "
+    },
+    {
+        "name": "憲法黒茶 ",
+        "color": "#241a08   "
+    },
+    {
+        "name": "暗黒色",
+        "color": "#16160e    "
+    },
+    {
+        "name": "萌葱色  ",
+        "color": "#006e54 "
+    },
+    {
+        "name": "花緑青   ",
+        "color": "#00a381  "
+    },
+    {
+        "name": "翡翠色 ",
+        "color": "#38b48b   "
+    },
+    {
+        "name": "青緑",
+        "color": "#00a497    "
+    },
+    {
+        "name": "水浅葱 ",
+        "color": "#80aba9   "
+    },
+    {
+        "name": "錆浅葱  ",
+        "color": "#5c9291  "
+    },
+    {
+        "name": "青碧",
+        "color": "#478384   "
+    },
+    {
+        "name": "御召茶",
+        "color": "#43676b "
+    },
+    {
+        "name": "湊鼠",
+        "color": "#80989b  "
+    },
+    {
+        "name": "高麗納戸 ",
+        "color": "#2c4f54   "
+    },
+    {
+        "name": "百入茶",
+        "color": "#1f3134  "
+    },
+    {
+        "name": "錆鼠",
+        "color": "#47585c  "
+    },
+    {
+        "name": "錆鉄御納戸",
+        "color": "#485859"
+    },
+    {
+        "name": "藍鼠",
+        "color": "#6c848d"
+    },
+    {
+        "name": "錆御納戸",
+        "color": "#53727d "
+    },
+    {
+        "name": "舛花色 ",
+        "color": "#5b7e91 "
+    },
+    {
+        "name": "熨斗目花色 ",
+        "color": "#426579  "
+    },
+    {
+        "name": "御召御納戸  ",
+        "color": "#4c6473   "
+    },
+    {
+        "name": "鉄御納戸 ",
+        "color": "#455765 "
+    },
+    {
+        "name": "紺鼠 ",
+        "color": "#44617b"
+    },
+    {
+        "name": "藍鉄",
+        "color": "#393f4c "
+    },
+    {
+        "name": "青褐",
+        "color": "#393e4f  "
+    },
+    {
+        "name": "褐返",
+        "color": "#203744   "
+    },
+    {
+        "name": "褐色",
+        "color": "#4d4c61 "
+    },
+    {
+        "name": "月白",
+        "color": "#eaf4fc "
+    },
+    {
+        "name": "白菫色 ",
+        "color": "#eaedf7 "
+    },
+    {
+        "name": "白花色",
+        "color": "#e8ecef "
+    },
+    {
+        "name": "藍白",
+        "color": "#ebf6f7 "
+    },
+    {
+        "name": "白藍",
+        "color": "#c1e4e9 "
+    },
+    {
+        "name": "水色",
+        "color": "#bce2e8 "
+    },
+    {
+        "name": "瓶覗",
+        "color": "#a2d7dd "
+    },
+    {
+        "name": "秘色色 ",
+        "color": "#abced8 "
+    },
+    {
+        "name": "空色",
+        "color": "#a0d8ef "
+    },
+    {
+        "name": "勿忘草色 ",
+        "color": "#89c3eb "
+    },
+    {
+        "name": "青藤色 ",
+        "color": "#84a2d4 "
+    },
+    {
+        "name": "白群",
+        "color": "#83ccd2 "
+    },
+    {
+        "name": "浅縹",
+        "color": "#84b9cb  "
+    },
+    {
+        "name": "薄花色",
+        "color": "#698aab   "
+    },
+    {
+        "name": "納戸色",
+        "color": "#008899 "
+    },
+    {
+        "name": "浅葱色",
+        "color": "#00a3af  "
+    },
+    {
+        "name": "花浅葱 ",
+        "color": "#2a83a2   "
+    },
+    {
+        "name": "新橋色",
+        "color": "#59b9c6    "
+    },
+    {
+        "name": "天色",
+        "color": "#2ca9e1    "
+    },
+    {
+        "name": "露草色 ",
+        "color": "#38a1db    "
+    },
+    {
+        "name": "青",
+        "color": "#0095d9    "
+    },
+    {
+        "name": "薄藍",
+        "color": "#0094c8     "
+    },
+    {
+        "name": "縹色",
+        "color": "#2792c3   "
+    },
+    {
+        "name": "紺碧",
+        "color": "#007bbb  "
+    },
+    {
+        "name": "薄群青",
+        "color": "#5383c3  "
+    },
+    {
+        "name": "薄花桜",
+        "color": "#5a79ba "
+    },
+    {
+        "name": "群青色",
+        "color": "#4c6cb3 "
+    },
+    {
+        "name": "杜若色",
+        "color": "#3e62ad "
+    },
+    {
+        "name": "瑠璃色",
+        "color": "#1e50a2  "
+    },
+    {
+        "name": "薄縹",
+        "color": "#507ea4   "
+    },
+    {
+        "name": "瑠璃紺",
+        "color": "#19448e "
+    },
+    {
+        "name": "紺瑠璃 ",
+        "color": "#164a84"
+    },
+    {
+        "name": "藍色",
+        "color": "#165e83"
+    },
+    {
+        "name": "青藍",
+        "color": "#274a78 "
+    },
+    {
+        "name": "深縹",
+        "color": "#2a4073  "
+    },
+    {
+        "name": "紺色",
+        "color": "#223a70  "
+    },
+    {
+        "name": "紺青",
+        "color": "#192f60  "
+    },
+    {
+        "name": "留紺",
+        "color": "#1c305c   "
+    },
+    {
+        "name": "濃藍",
+        "color": "#0f2350    "
+    },
+    {
+        "name": "鉄紺",
+        "color": "#17184b     "
+    },
+    {
+        "name": "漆黒",
+        "color": "#0d0015      "
+    },
+    {
+        "name": "淡藤色 ",
+        "color": "#bbc8e6      "
+    },
+    {
+        "name": "藤色",
+        "color": "#bbbcde      "
+    },
+    {
+        "name": "紅掛空色",
+        "color": "#8491c3   "
+    },
+    {
+        "name": "紅碧",
+        "color": "#8491c3   "
+    },
+    {
+        "name": "紺桔梗 ",
+        "color": "#4d5aaf    "
+    },
+    {
+        "name": "花色",
+        "color": "#4d5aaf     "
+    },
+    {
+        "name": "紺藍",
+        "color": "#4a488e      "
+    },
+    {
+        "name": "紅桔梗 ",
+        "color": "#4d4398       "
+    },
+    {
+        "name": "桔梗色",
+        "color": "#5654a2        "
+    },
+    {
+        "name": "藤納戸",
+        "color": "#706caa         "
+    },
+    {
+        "name": "紅掛花色 ",
+        "color": "#68699b     "
+    },
+    {
+        "name": "紫苑色 ",
+        "color": "#867ba9      "
+    },
+    {
+        "name": "白藤色 ",
+        "color": "#dbd0e6      "
+    },
+    {
+        "name": "藤紫",
+        "color": "#a59aca       "
+    },
+    {
+        "name": "菫色",
+        "color": "#7058a3   "
+    },
+    {
+        "name": "青紫",
+        "color": "#674598  "
+    },
+    {
+        "name": "菖蒲色",
+        "color": "#674196 "
+    },
+    {
+        "name": "竜胆色",
+        "color": "#9079ad  "
+    },
+    {
+        "name": "江戸紫 ",
+        "color": "#745399 "
+    },
+    {
+        "name": "本紫",
+        "color": "#65318e  "
+    },
+    {
+        "name": "葡萄色",
+        "color": "#522f60   "
+    },
+    {
+        "name": "深紫",
+        "color": "#493759    "
+    },
+    {
+        "name": "紫黒",
+        "color": "#2e2930     "
+    },
+    {
+        "name": "紫",
+        "color": "#884898      "
+    },
+    {
+        "name": "薄葡萄",
+        "color": "#c0a2c7       "
+    },
+    {
+        "name": "紫紺",
+        "color": "#460e44   "
+    },
+    {
+        "name": "暗紅色 ",
+        "color": "#74325c  "
+    },
+    {
+        "name": "桑の実色 ",
+        "color": "#55295b "
+    },
+    {
+        "name": "黄金",
+        "color": "#e6b422"
+    },
+    {
+        "name": "櫨染",
+        "color": "#d9a62e"
+    },
+    {
+        "name": "黄朽葉色 ",
+        "color": "#d3a243"
+    },
+    {
+        "name": "山吹茶 ",
+        "color": "#c89932 "
+    },
+    {
+        "name": "芥子色  ",
+        "color": "#d0af4c "
+    },
+    {
+        "name": "豆がら茶  ",
+        "color": "#8b968d  "
+    },
+    {
+        "name": "麹塵  ",
+        "color": "#6e7955   "
+    },
+    {
+        "name": "山鳩色",
+        "color": "#767c6b    "
+    },
+    {
+        "name": "利休鼠 ",
+        "color": "#888e7e     "
+    },
+    {
+        "name": "海松茶  ",
+        "color": "#5a544b      "
+    },
+    {
+        "name": "藍海松茶 ",
+        "color": "#56564b    "
+    },
+    {
+        "name": "藍媚茶 ",
+        "color": "#56564b    "
+    },
+    {
+        "name": "千歳茶",
+        "color": "#494a41     "
+    },
+    {
+        "name": "岩井茶",
+        "color": "#6b6f59      "
+    },
+    {
+        "name": "仙斎茶 ",
+        "color": "#474b42       "
+    },
+    {
+        "name": "黒緑",
+        "color": "#333631      "
+    },
+    {
+        "name": "柳煤竹 ",
+        "color": "#5b6356   "
+    },
+    {
+        "name": "樺茶色 ",
+        "color": "#726250   "
+    },
+    {
+        "name": "空五倍子色 ",
+        "color": "#9d896c    "
+    },
+    {
+        "name": "生壁色 ",
+        "color": "#94846a  "
+    },
+    {
+        "name": "肥後煤竹 ",
+        "color": "#897858 "
+    },
+    {
+        "name": "媚茶 ",
+        "color": "#716246  "
+    },
+    {
+        "name": "白橡",
+        "color": "#cbb994   "
+    },
+    {
+        "name": "亜麻色",
+        "color": "#d6c6af   "
+    },
+    {
+        "name": "榛色",
+        "color": "#bfa46f    "
+    },
+    {
+        "name": "灰汁色 ",
+        "color": "#9e9478    "
+    },
+    {
+        "name": "利休茶 ",
+        "color": "#a59564     "
+    },
+    {
+        "name": "鶯茶",
+        "color": "#715c1f  "
+    },
+    {
+        "name": "木蘭色",
+        "color": "#c7b370 "
+    },
+    {
+        "name": "砂色",
+        "color": "#dcd3b2 "
+    },
+    {
+        "name": "油色",
+        "color": "#a19361  "
+    },
+    {
+        "name": "利休色",
+        "color": "#8f8667   "
+    },
+    {
+        "name": "梅幸茶 ",
+        "color": "#887938    "
+    },
+    {
+        "name": "璃寛茶 ",
+        "color": "#6a5d21  "
+    },
+    {
+        "name": "黄海松茶 ",
+        "color": "#918754 "
+    },
+    {
+        "name": "菜種油色",
+        "color": "#a69425 "
+    },
+    {
+        "name": "青朽葉 ",
+        "color": "#ada250 "
+    },
+    {
+        "name": "根岸色 ",
+        "color": "#938b4b  "
+    },
+    {
+        "name": "鶸茶",
+        "color": "#8c8861  "
+    },
+    {
+        "name": "柳茶",
+        "color": "#a1a46d "
+    },
+    {
+        "name": "海松色 ",
+        "color": "#726d40  "
+    },
+    {
+        "name": "鶯色 ",
+        "color": "#928c36  "
+    },
+    {
+        "name": "緑黄色  ",
+        "color": "#dccb18  "
+    },
+    {
+        "name": "鶸色  ",
+        "color": "#d7cf3a  "
+    },
+    {
+        "name": "抹茶色",
+        "color": "#c5c56a   "
+    },
+    {
+        "name": "若草色 ",
+        "color": "#c3d825   "
+    },
+    {
+        "name": "黄緑",
+        "color": "#b8d200   "
+    },
+    {
+        "name": "若芽色",
+        "color": "#e0ebaf"
+    },
+    {
+        "name": "若菜色",
+        "color": "#d8e698"
+    },
+    {
+        "name": "若苗色 ",
+        "color": "#c7dc68"
+    },
+    {
+        "name": "青丹",
+        "color": "#99ab4e "
+    },
+    {
+        "name": "草色",
+        "color": "#7b8d42 "
+    },
+    {
+        "name": "苔色",
+        "color": "#69821b  "
+    },
+    {
+        "name": "萌黄",
+        "color": "#aacf53"
+    },
+    {
+        "name": "苗色",
+        "color": "#b0ca71"
+    },
+    {
+        "name": "若葉色",
+        "color": "#b9d08b"
+    },
+    {
+        "name": "松葉色",
+        "color": "#839b5c "
+    },
+    {
+        "name": "夏虫色 ",
+        "color": "#cee4ae "
+    },
+    {
+        "name": "鶸萌黄 ",
+        "color": "#82ae46 "
+    },
+    {
+        "name": "柳色",
+        "color": "#a8c97f "
+    },
+    {
+        "name": "青白橡 ",
+        "color": "#9ba88d  "
+    },
+    {
+        "name": "柳鼠",
+        "color": "#c8d5bb  "
+    },
+    {
+        "name": "裏葉柳 ",
+        "color": "#c1d8ac  "
+    },
+    {
+        "name": "山葵色",
+        "color": "#a8bf93 "
+    },
+    {
+        "name": "老竹色",
+        "color": "#769164"
+    },
+    {
+        "name": "白緑 ",
+        "color": "#d6e9ca"
+    },
+    {
+        "name": "淡萌黄 ",
+        "color": "#93ca76"
+    },
+    {
+        "name": "柳染",
+        "color": "#93b881 "
+    },
+    {
+        "name": "薄萌葱",
+        "color": "#badcad "
+    },
+    {
+        "name": "深川鼠",
+        "color": "#97a791 "
+    },
+    {
+        "name": "若緑",
+        "color": "#98d98e "
+    },
+    {
+        "name": "浅緑",
+        "color": "#88cb7f  "
+    },
+    {
+        "name": "薄緑",
+        "color": "#69b076"
+    },
+    {
+        "name": "青鈍",
+        "color": "#6b7b6e"
+    },
+    {
+        "name": "青磁鼠",
+        "color": "#bed2c3"
+    },
+    {
+        "name": "薄青",
+        "color": "#93b69c"
+    },
+    {
+        "name": "錆青磁 ",
+        "color": "#a6c8b2 "
+    },
+    {
+        "name": "緑青色",
+        "color": "#47885e "
+    },
+    {
+        "name": "千歳緑",
+        "color": "#316745  "
+    },
+    {
+        "name": "若竹色",
+        "color": "#68be8d   "
+    },
+    {
+        "name": "緑",
+        "color": "#3eb370    "
+    },
+    {
+        "name": "常磐色",
+        "color": "#007b43    "
+    },
+    {
+        "name": "千草鼠",
+        "color": "#bed3ca"
+    },
+    {
+        "name": "千草色",
+        "color": "#92b5a9 "
+    },
+    {
+        "name": "青磁色",
+        "color": "#7ebea5 "
+    },
+    {
+        "name": "青竹色",
+        "color": "#7ebeab  "
+    },
+    {
+        "name": "常磐緑",
+        "color": "#028760  "
+    },
+    {
+        "name": "木賊色",
+        "color": "#3b7960   "
+    },
+    {
+        "name": "天鵞絨 ",
+        "color": "#2f5d50"
+    },
+    {
+        "name": "虫襖",
+        "color": "#3a5b52 "
+    },
+    {
+        "name": "革色",
+        "color": "#475950  "
+    },
+    {
+        "name": "深緑",
+        "color": "#00552e   "
+    },
+    {
+        "name": "鉄色",
+        "color": "#005243    "
+    },
+    {
+        "name": "小豆色",
+        "color": "#96514d"
+    },
+    {
+        "name": "枯茶",
+        "color": "#8d6449"
+    },
+    {
+        "name": "饴色",
+        "color": "#deb068"
+    },
+    {
+        "name": "骆驼色",
+        "color": "#bf794e"
+    },
+    {
+        "name": "土色",
+        "color": "#bc763c"
+    },
+    {
+        "name": "黄唐色",
+        "color": "#b98c46"
+    },
+    {
+        "name": "桑染",
+        "color": "#b79b5b"
+    },
+    {
+        "name": "栌色",
+        "color": "#b77b57"
+    },
+    {
+        "name": "黄橡",
+        "color": "#b68d4c"
+    },
+    {
+        "name": "丁字染",
+        "color": "#ad7d4c"
+    },
+    {
+        "name": "香染",
+        "color": "#ad7d4c"
+    },
+    {
+        "name": "枇杷茶",
+        "color": "#ae7c4f"
+    },
+    {
+        "name": "芝翫茶",
+        "color": "#ad7e4e"
+    },
+    {
+        "name": "焦香",
+        "color": "#ae7c58"
+    },
+    {
+        "name": "胡桃色",
+        "color": "#a86f4c"
+    },
+    {
+        "name": "渋纸色",
+        "color": "#946243"
+    },
+    {
+        "name": "朽葉色",
+        "color": "#917347"
+    },
+    {
+        "name": "桑茶",
+        "color": "#956f29"
+    },
+    {
+        "name": "路考茶",
+        "color": "#8c7042"
+    },
+    {
+        "name": "国防色",
+        "color": "#7b6c3e"
+    },
+    {
+        "name": "伽羅色",
+        "color": "#d8a373"
+    },
+    {
+        "name": "江戸茶",
+        "color": "#cd8c5c"
+    },
+    {
+        "name": "樺色",
+        "color": "#cd5e3c"
+    },
+    {
+        "name": "紅鬱金",
+        "color": "#cb8347"
+    },
+    {
+        "name": "土器色",
+        "color": "#c37854"
+    },
+    {
+        "name": "狐色",
+        "color": "#c38743"
+    },
+    {
+        "name": "黄土色",
+        "color": "#c39143"
+    },
+    {
+        "name": "琥珀色",
+        "color": "#bf783a"
+    },
+    {
+        "name": "赤茶",
+        "color": "#bb5535"
+    },
+    {
+        "name": "代赭",
+        "color": "#bb5520"
+    },
+    {
+        "name": "煉瓦色",
+        "color": "#b55233"
+    },
+    {
+        "name": "雀茶",
+        "color": "#aa4f37"
+    },
+    {
+        "name": "団十郎茶",
+        "color": "#9f563a"
+    },
+    {
+        "name": "柿渋色",
+        "color": "#9f563a"
+    },
+    {
+        "name": "紅鳶",
+        "color": "#9a493f"
+    },
+    {
+        "name": "灰茶",
+        "color": "#98623c"
+    },
+    {
+        "name": "茶色",
+        "color": "#965042"
+    },
+    {
+        "name": "檜皮色",
+        "color": "#965036"
+    },
+    {
+        "name": "鳶色",
+        "color": "#95483f"
+    },
+    {
+        "name": "柿茶",
+        "color": "#954e2a"
+    },
+    {
+        "name": "弁柄色",
+        "color": "#8f2e14"
+    },
+    {
+        "name": "赤錆色",
+        "color": "#8a3319"
+    },
+    {
+        "name": "褐色",
+        "color": "#8a3b00"
+    },
+    {
+        "name": "栗梅",
+        "color": "#852e19"
+    },
+    {
+        "name": "紅檜皮",
+        "color": "#7b4741"
+    },
+    {
+        "name": "海老茶",
+        "color": "#773c30"
+    },
+    {
+        "name": "唐茶",
+        "color": "#783c1d"
+    },
+    {
+        "name": "栗色",
+        "color": "#762f07"
+    },
+    {
+        "name": "赤銅色",
+        "color": "#752100"
+    },
+    {
+        "name": "錆色",
+        "color": "#6c3524"
+    },
+    {
+        "name": "赤褐色",
+        "color": "#683f36"
+    },
+    {
+        "name": "茶褐色",
+        "color": "#664032"
+    },
+    {
+        "name": "栗皮茶",
+        "color": "#6d3c32"
+    },
+    {
+        "name": "黒茶",
+        "color": "#583822"
+    },
+    {
+        "name": "葡萄茶",
+        "color": "#6c2c2f"
+    },
+    {
+        "name": "葡萄色",
+        "color": "#640125"
+    },
+    {
+        "name": "萱草色",
+        "color": "#f8b862"
+    },
+    {
+        "name": "柑子色",
+        "color": "#f6ad49"
+    },
+    {
+        "name": "金茶",
+        "color": "#f39800"
+    },
+    {
+        "name": "蜜柑色",
+        "color": "#f08300"
+    },
+    {
+        "name": "鉛丹色",
+        "color": "#ec6d51"
+    },
+    {
+        "name": "黄丹",
+        "color": "#ee7948"
+    },
+    {
+        "name": "柿色",
+        "color": "#ed6d3d"
+    },
+    {
+        "name": "黄赤",
+        "color": "#ec6800"
+    },
+    {
+        "name": "人参色",
+        "color": "#ec6800"
+    },
+    {
+        "name": "橙色",
+        "color": "#ee7800"
+    },
+    {
+        "name": "照柿",
+        "color": "#eb6238"
+    },
+    {
+        "name": "赤橙",
+        "color": "#ea5506"
+    },
+    {
+        "name": "金赤",
+        "color": "#ea5506"
+    },
+    {
+        "name": "朱色",
+        "color": "#eb6101"
+    },
+    {
+        "name": "小麦色",
+        "color": "#e49e61"
+    },
+    {
+        "name": "丹色",
+        "color": "#e45e32"
+    },
+    {
+        "name": "黄茶",
+        "color": "#e17b34"
+    },
+    {
+        "name": "肉桂色",
+        "color": "#dd7a56"
+    },
+    {
+        "name": "赤朽葉色",
+        "color": "#db8449"
+    },
+    {
+        "name": "黄櫨染",
+        "color": "#d66a35"
+    },
+    {
+        "name": "蒲公英色",
+        "color": "#ffd900"
+    },
+    {
+        "name": "黄色",
+        "color": "#ffd900"
+    },
+    {
+        "name": "中黄",
+        "color": "#ffea00"
+    },
+    {
+        "name": "菜の花色",
+        "color": "#ffec47"
+    },
+    {
+        "name": "黄檗色",
+        "color": "#fef263"
+    },
+    {
+        "name": "卵色",
+        "color": "#fcd575"
+    },
+    {
+        "name": "花葉色",
+        "color": "#fbd26b"
+    },
+    {
+        "name": "刈安色",
+        "color": "#f5e56b"
+    },
+    {
+        "name": "玉蜀黍色",
+        "color": "#eec362"
+    },
+    {
+        "name": "金糸雀色",
+        "color": "#ebd842"
+    },
+    {
+        "name": "黄支子色",
+        "color": "#ffdb4f"
+    },
+    {
+        "name": "支子色",
+        "color": "#fbca4d"
+    },
+    {
+        "name": "向日葵色",
+        "color": "#fcc800"
+    },
+    {
+        "name": "山吹色",
+        "color": "#f8b500"
+    },
+    {
+        "name": "鬱金色",
+        "color": "#fabf14"
+    },
+    {
+        "name": "藤黄",
+        "color": "#f7c114"
+    },
+    {
+        "name": "金色",
+        "color": "#e6b422"
+    },
+    {
+        "name": "桜色",
+        "color": "#bf242a"
+    },
+    {
+        "name": "薄桜",
+        "color": "#fdeff2"
+    },
+    {
+        "name": "桜鼠",
+        "color": "#e9dfe5"
+    },
+    {
+        "name": "鸨鼠",
+        "color": "#e4d2d8"
+    },
+    {
+        "name": "虹色",
+        "color": "#f6bfbc"
+    },
+    {
+        "name": "珊瑚色",
+        "color": "#f5b1aa"
+    },
+    {
+        "name": "一斤染",
+        "color": "#f5b199"
+    },
+    {
+        "name": "宍色",
+        "color": "#efab93"
+    },
+    {
+        "name": "红梅色",
+        "color": "#f2a0a1"
+    },
+    {
+        "name": "薄红",
+        "color": "#f0908d"
+    },
+    {
+        "name": "甚三红",
+        "color": "#ee827c"
+    },
+    {
+        "name": "桃色",
+        "color": "#f09199"
+    },
+    {
+        "name": "鸨色",
+        "color": "#f4b3c2"
+    },
+    {
+        "name": "撫子色",
+        "color": "#eebbcb"
+    },
+    {
+        "name": "灰梅",
+        "color": "#e8d3c7"
+    },
+    {
+        "name": "灰桜",
+        "color": "#e8d3d1"
+    },
+    {
+        "name": "淡红藤",
+        "color": "#e6cde3"
+    },
+    {
+        "name": "石竹色",
+        "color": "#e5abbe"
+    },
+    {
+        "name": "薄红梅",
+        "color": "#e597b2"
+    },
+    {
+        "name": "桃花色",
+        "color": "#e198b4"
+    },
+    {
+        "name": "水柿",
+        "color": "#e4ab9b"
+    },
+    {
+        "name": "ときがら茶",
+        "color": "#e09e87"
+    },
+    {
+        "name": "退红",
+        "color": "#d69090"
+    },
+    {
+        "name": "薄柿",
+        "color": "#d4acad"
+    },
+    {
+        "name": "长春色",
+        "color": "#c97586"
+    },
+    {
+        "name": "梅鼠",
+        "color": "#c099a0"
+    },
+    {
+        "name": "鸨浅葱",
+        "color": "#b88884"
+    },
+    {
+        "name": "梅染",
+        "color": "#b48a76"
+    },
+    {
+        "name": "苏芳香",
+        "color": "#a86965"
+    },
+    {
+        "name": "浅苏芳",
+        "color": "#a25768"
+    },
+    {
+        "name": "真朱",
+        "color": "#ec6d71"
+    },
+    {
+        "name": "赤紫",
+        "color": "#eb6ea5"
+    },
+    {
+        "name": "躑躅色",
+        "color": "#e95295"
+    },
+    {
+        "name": "牡丹色",
+        "color": "#e7609e"
+    },
+    {
+        "name": "今样色",
+        "color": "#d0576b"
+    },
+    {
+        "name": "中红",
+        "color": "#c85179"
+    },
+    {
+        "name": "蔷薇色",
+        "color": "#e9546b"
+    },
+    {
+        "name": "韩红",
+        "color": "#e95464"
+    },
+    {
+        "name": "银朱",
+        "color": "#c85554"
+    },
+    {
+        "name": "赤红",
+        "color": "#c53d43"
+    },
+    {
+        "name": "红緋",
+        "color": "#e83929"
+    },
+    {
+        "name": "赤",
+        "color": "#e60033"
+    },
+    {
+        "name": "猩緋",
+        "color": "#e2041b"
+    },
+    {
+        "name": "红",
+        "color": "#d7003a"
+    },
+    {
+        "name": "深緋",
+        "color": "#c9171e"
+    },
+    {
+        "name": "绯色",
+        "color": "#d3381c"
+    },
+    {
+        "name": "赤丹",
+        "color": "#ce5242"
+    },
+    {
+        "name": "红赤",
+        "color": "#d9333f"
+    },
+    {
+        "name": "胭脂",
+        "color": "#b94047"
+    },
+    {
+        "name": "朱緋",
+        "color": "#ba2636"
+    },
+    {
+        "name": "茜色",
+        "color": "#b7282e"
+    },
+    {
+        "name": "深海老茶",
+        "color": "#a73836"
+    },
+    {
+        "name": "苏芳",
+        "color": "#9e3d3f"
+    },
+    {
+        "name": "真红",
+        "color": "#a22041"
+    },
+    {
+        "name": "浓红",
+        "color": "#a22041"
+    },
+    {
+        "name": "象牙色",
+        "color": "#f8f4e6"
+    },
+    {
+        "name": "练色",
+        "color": "#ede4cd"
+    },
+    {
+        "name": "灰白色",
+        "color": "#e9e4d4"
+    },
+    {
+        "name": "蒸栗色",
+        "color": "#ede1a9"
+    },
+    {
+        "name": "女郎花",
+        "color": "#f2f2b0"
+    },
+    {
+        "name": "枯草色",
+        "color": "#e4dc8a"
+    },
+    {
+        "name": "淡黄",
+        "color": "#f8e58c"
+    },
+    {
+        "name": "白茶",
+        "color": "#ddbb99"
+    },
+    {
+        "name": "赤白橡",
+        "color": "#d7a98c"
+    },
+    {
+        "name": "洗柿",
+        "color": "#f2c9ac"
+    },
+    {
+        "name": "鸟の子色",
+        "color": "#fff1cf"
+    },
+    {
+        "name": "蜂蜜色",
+        "color": "#fddea5"
+    },
+    {
+        "name": "肌色",
+        "color": "#fce2c4"
+    },
+    {
+        "name": "薄卵色",
+        "color": "#fde8d0"
+    },
+    {
+        "name": "雄黄",
+        "color": "#f9c89b"
+    },
+    {
+        "name": "洒落柿",
+        "color": "#f7bd8f"
+    },
+    {
+        "name": "赤香",
+        "color": "#f6b894"
+    },
+    {
+        "name": "砥粉色",
+        "color": "#f4dda5"
+    },
+    {
+        "name": "肉色",
+        "color": "#f1bf99"
+    },
+    {
+        "name": "人色",
+        "color": "#f1bf99"
+    },
+    {
+        "name": "丁子色",
+        "color": "#efcd9a"
+    },
+    {
+        "name": "香色",
+        "color": "#efcd9a"
+    },
+    {
+        "name": "薄香",
+        "color": "#f0cfa0"
+    },
+    {
+        "name": "浅黄",
+        "color": "#edd3a1"
+    },
+    {
+        "name": "枯色",
+        "color": "#e0c38c"
+    },
+    {
+        "name": "淡香",
+        "color": "#f3bf88"
+    },
+    {
+        "name": "杏色",
+        "color": "#f7b977"
+    },
+    {
+        "name": "东云色",
+        "color": "#f19072"
+    },
+    {
+        "name": "曙色",
+        "color": "#f19072"
+    },
+    {
+        "name": "珊瑚朱色",
+        "color": "#ee836f"
+    },
+    {
+        "name": "深支子",
+        "color": "#eb9b6f"
+    },
+    {
+        "name": "纁",
+        "color": "#e0815e"
+    },
+    {
+        "name": "浅绯",
+        "color": "#df7163"
+    },
+    {
+        "name": "真赭",
+        "color": "#d57c6b"
+    },
+    {
+        "name": "洗朱",
+        "color": "#d0826c"
+    },
+    {
+        "name": "遠州茶",
+        "color": "#ca8269"
+    },
+    {
+        "name": "红桦色",
+        "color": "#bb5548"
+    },
+    {
+        "name": "赭",
+        "color": "#ab6953"
+    }
+]

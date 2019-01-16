@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 const Home = resolve => require(['@/views/Home'], resolve)
+const All = resolve => require(['@/views/All'], resolve)
+const Palette = resolve => require(['@/views/Palette'], resolve)
 const PaletteHelp = resolve => require(['@/views/PaletteHelp'], resolve)
 const PaletteSettings = resolve => require(['@/views/PaletteSettings'], resolve)
 const About = resolve => require(['@/views/About'], resolve)
@@ -20,6 +22,10 @@ let routes = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/palette',
+        component: Palette
     },
     {
         path: '/palette/help',
@@ -60,6 +66,10 @@ let routes = [
     {
         path: '/search',
         component: Search
+    },
+    {
+        path: '/color/all',
+        component: All
     },
     {
         path: '*',

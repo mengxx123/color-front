@@ -1,5 +1,5 @@
 <template>
-    <my-page title="日本传统色彩大全">
+    <my-page title="日本传统色彩">
         <div class="traditional">
             <div class="container clearfix">
                 <ul>

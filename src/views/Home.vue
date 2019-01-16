@@ -1,112 +1,194 @@
 <template>
-    <my-page title="调色板" :page="page">
-        <!-- <ui-color-picker v-model="color1" ></ui-color-picker> -->
-        <ui-color-picker-ex class="color-picker" v-model="color2"></ui-color-picker-ex>
-        <div class="btns">
-            <ui-icon-button class="color-copy btn-copy" icon="content_copy" title="复制" :data-clipboard-text="color2" />
-            <ui-icon-button class="btn" icon="add" title="添加到颜色面板" @click="add" />
-        </div>
-
-        <ul class="palette-list">
-            <li class="item" v-for="color in colors">
-                <div class="palette" :style="{'background-color': color}" @click="setColor(color)"></div>
-                <div class="code btn-copy" :data-clipboard-text="color" title="点击复制代码">{{ color }}</div>
-            </li>
-        </ul>
+    <my-page title="颜色" :page="page">
+        <app-list :data="groups" />
     </my-page>
 </template>
 
 <script>
-    const Clipboard = window.Clipboard
-
     export default {
         data () {
             return {
-                color1: '#ff9c1d',
-                color2: '#ff9c1d',
-                colors: ['#ff0000', '#0099cc', '#000000', '#ffffff'],
+                groups: [
+                    {
+                        // name: '分类',
+                        apps: [
+                            {
+                                name: '调色板',
+                                desc: '',
+                                icon: '/static/img/color_plete.svg',
+                                to: '/palette'
+                            },
+                            {
+                                name: '搜索',
+                                desc: '',
+                                icon: '/static/img/color.svg',
+                                to: '/search'
+                            },
+                            {
+                                name: '色相',
+                                desc: '',
+                                icon: '/static/img/color_filling.svg',
+                                to: 'xxx',
+                                href: 'http://hue.yunser.com/',
+                                target: '_blank'
+                            },
+                            {
+                                name: '图片取色',
+                                desc: '',
+                                icon: '/static/img/image_pick_up_color.svg',
+                                to: 'xxx',
+                                href: 'https://imagetool.yunser.com/color',
+                                target: '_blank'
+                            },
+                            {
+                                name: '配色',
+                                desc: '',
+                                icon: '/static/img/color.svg',
+                                to: '/colorScheme'
+                            },
+                            {
+                                name: '渐变',
+                                desc: '',
+                                icon: '/static/img/gradient.svg',
+                                to: '/gradient'
+                            },
+                            {
+                                name: '传统色彩',
+                                desc: '中国传统色彩、日本传统色彩',
+                                icon: '/static/img/color_china.svg',
+                                to: '/color/chinese'
+                            },
+                            // {
+                            //     name: '日本传统色彩',
+                            //     desc: '',
+                            //     icon: '/static/img/color_japan.svg',
+                            //     to: '/color/japen'
+                            // },
+                            {
+                                name: 'Material Design',
+                                desc: 'Material Design 颜色',
+                                icon: '/static/img/color_maerial_design.svg',
+                                to: '/color/materialDesign'
+                            },
+                            {
+                                name: '颜色名称大全',
+                                desc: '',
+                                icon: '/static/img/color.svg',
+                                to: '/color/all'
+                            }
+                        ]
+                    }
+                ],
                 page: {
                     menu: [
                         {
                             type: 'icon',
-                            icon: 'settings',
-                            to: '/palette/settings'
+                            icon: 'search',
+                            href: 'https://search.yunser.com?utm_source=color',
+                            target: '_blank',
+                            title: '搜索'
                         },
                         {
                             type: 'icon',
-                            icon: 'help',
-                            to: '/palette/help'
+                            icon: 'apps',
+                            href: 'https://app.yunser.com?utm_source=color',
+                            target: '_blank',
+                            title: '应用'
                         }
                     ]
                 }
             }
         },
-        mounted () {
-            let data = this.$route.query.data
-            if (data) {
-                console.log('哈哈', data)
-                this.color2 = data
-            } else {
-                this.colors = this.$storage.get('colors', this.colors)
-            }
-
-            this.clipboard = new Clipboard('.btn-copy')
-            this.clipboard.on('success', e => {
-                this.$message({
-                    type: 'success',
-                    text: '复制成功'
-                })
-//                console.info('Action:', e.action);
-//                console.info('Text:', e.text);
-//                console.info('Trigger:', e.trigger);
-                e.clearSelection()
-            })
-            this.clipboard.on('error', function(e) {
-            })
+        computed: {
         },
-        destroyed() {
-            this.clipboard.destroy()
+        mounted() {
         },
         methods: {
-            setColor(color) {
-//                this.color2 = color
-            },
-            add() {
-                this.colors.unshift(this.color2)
-                this.$storage.set('colors', this.colors)
-            }
         }
     }
 </script>
 
 <style lang="scss" scoped>
-    @import "../scss/var";
+@import '../scss/var';
 
-    .color-copy {
-        margin-bottom: 16px;
-    }
-    .color-picker {
-        height: 300px;
-    }
-    .palette-list {
-        max-width: 800px;
-        @include clearfix;
-        .item {
-            float: left;
-            margin-right: 16px;
-            margin-bottom: 16px;
+.tool-list {
+    max-width: 840px;
+    margin: 0 auto;
+    @include clearfix;
+    .list-item {
+        position: relative;
+        float: left;
+        width: 260px;
+        height: 96px;
+        padding: 8px;
+        margin: 2px 16px 16px 2px;
+        background-color: #fff;
+        //border: 1px solid #ccc;
+        &:hover {
+            background-color: #f9f9f9;
+            // box-shadow: 0 3px 10px rgba(0,0,0,.156863), 0 3px 10px rgba(0,0,0,.227451);
+            //border-color: #09c;
+            .icon {
+                display: block;
+            }
         }
-        .palette {
-            width: 40px;
-            height: 40px;
-            margin: 0 auto 8px auto;
-            border-radius: 50%;
-            border: 1px solid #999;
-            /*cursor: pointer;*/
-        }
-        .code {
-            cursor: pointer;
-            text-align: center;
+        &.active {
+            border: 1px solid #f00;
         }
     }
+    a {
+        display: block;
+        height: 100%;
+        color: #666;
+    }
+    .img {
+        float: left;
+        width: 72px;
+        height: 72px;
+        margin-right: 16px;
+        background-color: #fff;
+        border: 1px solid #e9e9e9;
+        border-radius: 8px;
+    }
+    .info {
+        float: left;
+    }
+    .text {
+        font-size: 18px;
+        color: #000;
+    }
+    .header {
+        overflow: hidden;
+    }
+    .desc {
+        max-width: 150px;
+        margin-top: 8px;
+    }
+    .icon-heart {
+        display: none;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        &:hover {
+            color: #f00;
+        }
+    }
+    .icon-close {
+        display: none;
+        position: absolute;
+        top: 32px;
+        right: 8px;
+        &:hover {
+            color: #f00;
+        }
+    }
+}
+@media all and (max-width: 400px){
+    .tool-list {
+        .list-item {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+}
 </style>

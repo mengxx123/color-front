@@ -1,6 +1,6 @@
 <template>
-    <my-page title="关于">
-        <div>调色板 v1.0.0</div>
+    <my-page title="关于" backable>
+        <div>颜色 v1.2.0</div>
     </my-page>
 </template>
 
