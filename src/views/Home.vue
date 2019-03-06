@@ -13,6 +13,12 @@
                         // name: '分类',
                         apps: [
                             {
+                                name: '颜色转换',
+                                desc: '',
+                                icon: '/static/img/color.svg',
+                                to: '/convert'
+                            },
+                            {
                                 name: '调色板',
                                 desc: '',
                                 icon: '/static/img/color_plete.svg',

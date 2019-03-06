@@ -344,7 +344,7 @@
         _width: 195px;
         _height: expression(this.parentNode.clientHeight - 155+"px")
     }
-
+】
     #nav h4 {
         margin: .4em 1em 0;
         padding: .4em 0;

@@ -14,6 +14,7 @@ const MaterialDesignColor = resolve => require(['@/views/MaterialDesignColor'], 
 const ColorScheme = resolve => require(['@/views/ColorScheme'], resolve)
 const Hue = resolve => require(['@/views/Hue'], resolve)
 const Search = resolve => require(['@/views/Search'], resolve)
+const Convert = resolve => require(['@/views/Convert'], resolve)
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -70,6 +71,10 @@ let routes = [
     {
         path: '/color/all',
         component: All
+    },
+    {
+        path: '/convert',
+        component: Convert
     },
     {
         path: '*',
