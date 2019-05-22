@@ -1,12 +1,14 @@
 <template>
     <my-page title="调色板 - 设置" backable>
-        <h2 class="section-title">色板管理</h2>
-        <ul class="palette-list">
-            <li class="item" v-for="color in colors">
-                <div class="palette" :style="{'background-color': color}"></div>
-                <div class="code" @click="remove(color)">删除</div>
-            </li>
-        </ul>
+        <div class="common-container container">
+            <h2 class="section-title">色板管理</h2>
+            <ul class="palette-list">
+                <li class="item" v-for="color in colors">
+                    <div class="palette" :style="{'background-color': color}"></div>
+                    <div class="code" @click="remove(color)">删除</div>
+                </li>
+            </ul>
+        </div>
     </my-page>
 </template>
 

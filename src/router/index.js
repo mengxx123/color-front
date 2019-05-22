@@ -6,7 +6,6 @@ const All = resolve => require(['@/views/All'], resolve)
 const Palette = resolve => require(['@/views/Palette'], resolve)
 const PaletteHelp = resolve => require(['@/views/PaletteHelp'], resolve)
 const PaletteSettings = resolve => require(['@/views/PaletteSettings'], resolve)
-const About = resolve => require(['@/views/About'], resolve)
 const Gradient = resolve => require(['@/views/Gradient'], resolve)
 const ChineseColor = resolve => require(['@/views/ChineseColor'], resolve)
 const JapenColor = resolve => require(['@/views/JapenColor'], resolve)
@@ -35,10 +34,6 @@ let routes = [
     {
         path: '/palette/settings',
         component: PaletteSettings
-    },
-    {
-        path: '/about',
-        component: About
     },
     {
         path: '/hue',

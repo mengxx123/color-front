@@ -1,8 +1,10 @@
 <template>
     <my-page title="颜色转换">
-        <ui-text-field v-model="code" label="颜色代码" />
-        <br>
-        <ui-raised-button label="转换" primary @click="convert" />
+        <div class="common-container container">
+            <ui-text-field v-model="code" label="颜色代码" />
+            <br>
+            <ui-raised-button label="转换" primary @click="convert" />
+        </div>
     </my-page>
 </template>
  

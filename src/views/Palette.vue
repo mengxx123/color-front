@@ -1,18 +1,20 @@
 <template>
     <my-page title="调色板" :page="page">
-        <!-- <ui-color-picker v-model="color1" ></ui-color-picker> -->
-        <ui-color-picker-ex class="color-picker" v-model="color2"></ui-color-picker-ex>
-        <div class="btns">
-            <ui-icon-button class="color-copy btn-copy" icon="content_copy" title="复制" :data-clipboard-text="color2" />
-            <ui-icon-button class="btn" icon="add" title="添加到颜色面板" @click="add" />
-        </div>
+        <div class="common-container container">
+            <!-- <ui-color-picker v-model="color1" ></ui-color-picker> -->
+            <ui-color-picker-ex class="color-picker" v-model="color2"></ui-color-picker-ex>
+            <div class="btns">
+                <ui-icon-button class="color-copy btn-copy" icon="content_copy" title="复制" :data-clipboard-text="color2" />
+                <ui-icon-button class="btn" icon="add" title="添加到颜色面板" @click="add" />
+            </div>
 
-        <ul class="palette-list">
-            <li class="item" v-for="color in colors">
-                <div class="palette" :style="{'background-color': color}" @click="setColor(color)"></div>
-                <div class="code btn-copy" :data-clipboard-text="color" title="点击复制代码">{{ color }}</div>
-            </li>
-        </ul>
+            <ul class="palette-list">
+                <li class="item" v-for="color in colors">
+                    <div class="palette" :style="{'background-color': color}" @click="setColor(color)"></div>
+                    <div class="code btn-copy" :data-clipboard-text="color" title="点击复制代码">{{ color }}</div>
+                </li>
+            </ul>
+        </div>
     </my-page>
 </template>
 

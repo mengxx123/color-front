@@ -1,19 +1,21 @@
 <template>
     <my-page title="Material Design 颜色">
-        <ul class="color-list">
-            <li class="color-item" v-for="color in colors">
-                <div class="header" :style="{'background-color': color.list[5]}">{{ color.name }}</div>
-                <ul class="sub-color-list">
-                    <li class="btn-copy"
-                        :style="{'background-color': item}"
-                        :data-clipboard-text="item"
-                        v-for="(item, index) in color.list">
-                        <div class="name">{{ name(index) }}</div>
-                        <div class="code">{{ item }}</div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+        <div class="common-container container">
+            <ul class="color-list">
+                <li class="color-item" v-for="color in colors">
+                    <div class="header" :style="{'background-color': color.list[5]}">{{ color.name }}</div>
+                    <ul class="sub-color-list">
+                        <li class="btn-copy"
+                            :style="{'background-color': item}"
+                            :data-clipboard-text="item"
+                            v-for="(item, index) in color.list">
+                            <div class="name">{{ name(index) }}</div>
+                            <div class="code">{{ item }}</div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </my-page>
 </template>
 

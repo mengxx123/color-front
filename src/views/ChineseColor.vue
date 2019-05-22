@@ -1,19 +1,21 @@
 <template>
     <my-page title="传统色彩" :page="page">
-        <ui-appbar class="search-bar" v-if="searchVisible">
-            <ui-icon-button class="icon" icon="arrow_back_ios" slot="left" @click="close"/>
-            <input class="input" id="input" v-model="keyword" slot="left" placeholder="搜索颜色">
-            <ui-icon-button class="icon" icon="close" slot="right" @click="clear" v-if="keyword.length" />
-        </ui-appbar>
-        <div class="empty" v-if="!filterColors.length">
-            没有搜索结果~
-        </div>    
-        <ul class="color-list">
-            <li class="item" v-for="item in filterColors" :style="{'background-color': item.color}">
-                <div class="color">{{ item.color }}</div>
-                <div class="name">{{ item.name }}</div>
-            </li>
-        </ul>
+        <div class="common-container container">
+            <ui-appbar class="search-bar" v-if="searchVisible">
+                <ui-icon-button class="icon" icon="arrow_back_ios" slot="left" @click="close"/>
+                <input class="input" id="input" v-model="keyword" slot="left" placeholder="搜索颜色">
+                <ui-icon-button class="icon" icon="close" slot="right" @click="clear" v-if="keyword.length" />
+            </ui-appbar>
+            <div class="empty" v-if="!filterColors.length">
+                没有搜索结果~
+            </div>    
+            <ul class="color-list">
+                <li class="item" v-for="item in filterColors" :style="{'background-color': item.color}">
+                    <div class="color">{{ item.color }}</div>
+                    <div class="name">{{ item.name }}</div>
+                </li>
+            </ul>
+        </div>
     </my-page>
 </template>
 

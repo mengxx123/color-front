@@ -1,9 +1,11 @@
 <template>
     <my-page title="搜索">
-        <ui-paper class="search-box">
-            <ui-text-field v-model="keyword" hintText="#f00" />
-            <ui-raised-button label="搜索" primary @click="search" />
-        </ui-paper>
+        <div class="common-container container">
+            <ui-paper class="search-box">
+                <ui-text-field v-model="keyword" hintText="#f00" />
+                <ui-raised-button label="搜索" primary @click="search" />
+            </ui-paper>
+        </div>
     </my-page>
 </template>
 

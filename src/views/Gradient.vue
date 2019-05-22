@@ -1,46 +1,48 @@
 <template>
     <my-page title="渐变">
-        <div class="row">
-            <div class="col-lg-8 col-md-8">
-                <section class="bezier-box">
-                    <ul class="gradient-list">
-                        <li class="gradient-item item-add" @click="viewEditor">
-                            <div class="content"></div>
-                        </li>
-                        <li class="gradient-item" v-for="item in displayList" @click="selectColor(item.colors, $event)">
-                            <div class="content" :style="{background: getBg(item.colors)}"></div>
-                            <ul class="simple-color-list">
-                                <li v-for="color in item.colors" :style="{'background-color': color}"></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
+        <div class="common-container container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <section class="bezier-box">
+                        <ul class="gradient-list">
+                            <li class="gradient-item item-add" @click="viewEditor">
+                                <div class="content"></div>
+                            </li>
+                            <li class="gradient-item" v-for="item in displayList" @click="selectColor(item.colors, $event)">
+                                <div class="content" :style="{background: getBg(item.colors)}"></div>
+                                <ul class="simple-color-list">
+                                    <li v-for="color in item.colors" :style="{'background-color': color}"></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <section id="type-box" class="editor-box">
+                        <ul class="type-list">
+                            <li class="type-item no-filter" @click="noFilter">
+                                <ui-icon value="do_not_disturb_alt" size="36" />
+                            </li>
+                            <li class="type-item"
+                                v-for="type in types"
+                                :style="{'background-color': type}"
+                                @click="filter(type)"></li>
+                            <!--<li class="type-item" style="background-color: #fff" @click="filterWhite"></li>-->
+                            <!--<li class="type-item" style="background-color: #000" @click="filterBlack"></li>-->
+                        </ul>
+                    </section>
+                </div>
             </div>
-            <div class="col-lg-4 col-md-4">
-                <section id="type-box" class="editor-box">
-                    <ul class="type-list">
-                        <li class="type-item no-filter" @click="noFilter">
-                            <ui-icon value="do_not_disturb_alt" size="36" />
-                        </li>
-                        <li class="type-item"
-                            v-for="type in types"
-                            :style="{'background-color': type}"
-                            @click="filter(type)"></li>
-                        <!--<li class="type-item" style="background-color: #fff" @click="filterWhite"></li>-->
-                        <!--<li class="type-item" style="background-color: #000" @click="filterBlack"></li>-->
-                    </ul>
-                </section>
+            <preview ref="preview"/>
+            <!--<div :class="previewClass" v-if="previewVisible"-->
+                <!--@click="previewVisible = false"-->
+                <!--:style="previewStyle">-->
+            <!--</div>-->
+            <div class="all" :style="allStyle"
+                :class="allClass"
+                @click="close">
+                <div class="all-content" :style="contentStyle"></div>
             </div>
-        </div>
-        <preview ref="preview"/>
-        <!--<div :class="previewClass" v-if="previewVisible"-->
-             <!--@click="previewVisible = false"-->
-             <!--:style="previewStyle">-->
-        <!--</div>-->
-        <div class="all" :style="allStyle"
-             :class="allClass"
-             @click="close">
-            <div class="all-content" :style="contentStyle"></div>
         </div>
     </my-page>
 </template>
